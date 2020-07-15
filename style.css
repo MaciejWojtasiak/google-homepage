@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 95vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    min-height: 5vh;
+    position: relative;
+}
+
+.nav ul {
+    margin: 10px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.right img {
+    width: 15px;
+}
+
+.logo {
+    padding-top: 10%;
+}
+
+.blue {
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    background-color: #4585F4;
+    color: white;
+}
+
+#google-logo {
+    width: 260px;
+}
+
+.search-bar {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.search-bar form {
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    width: 500px;
+    height: 45px;
+    margin: auto;
+    position: relative;
+}
+
+.search-bar form:hover {
+    box-shadow: 0px 0px 5px 1px lightgray;
+    cursor: pointer;
+}
+
+.search-bar input {
+    border: none;
+    width: 78%;
+    height: 38px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+}
+
+.search-bar img:first-of-type {
+    width: 20px;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+}
+
+.search-bar img:last-of-type {
+    width: 20px;
+    position: absolute;
+    top: 7px;
+    right: 15px;
+}
+
+.buttons {
+    padding-top: 15px;
+    height: 40px;
+}
+
+.buttons button {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+    color: gray;
+    margin: 5px;
+}
+
+.buttons button:hover {
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    background-color: #F2F2F2;
+    min-height: 5vh;
+}
+
+footer a {
+    color: gray;
+}
