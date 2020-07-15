@@ -53,7 +53,7 @@ a:hover {
 }
 
 .logo {
-    padding-top: 10%;
+    padding-top: 9%;
 }
 
 .blue {
@@ -70,14 +70,14 @@ a:hover {
 
 .search-bar {
     width: 100%;
-    margin-top: 5px;
+    margin-top: 14px;
 }
 
 .search-bar form {
     border: 1px solid lightgray;
     border-radius: 50px;
-    width: 500px;
-    height: 45px;
+    width: 520px;
+    height: 38px;
     margin: auto;
     position: relative;
 }
@@ -98,16 +98,17 @@ a:hover {
     outline: none;
 }
 
-.search-bar img:first-of-type {
-    width: 20px;
+.search-bar img {
+    width: 15px;
     position: absolute;
+}
+
+.search-bar img:first-of-type {
     top: 11px;
     left: 15px;
 }
 
 .search-bar img:last-of-type {
-    width: 20px;
-    position: absolute;
     top: 7px;
     right: 15px;
 }
